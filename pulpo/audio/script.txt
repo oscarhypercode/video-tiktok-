@@ -1,8 +1,1 @@
-# Guion de voz (español, ~30 s). Cada frase empieza en el beat indicado (1 beat = 0,5 s).
-[0 s]    ¿Sabías que el pulpo...
-[3 s]    tiene tres corazones?
-[8 s]    Y su sangre es azul, culpa de la hemocianina: usa cobre, no hierro.
-[13 s]   ¿Y para qué tres? Dos bombean a las branquias, y uno al resto del cuerpo.
-[17 s]   Pero cuando nada... ¡su corazón se detiene!
-[23 s]   Por eso prefiere... caminar.
-[26,5 s] ¡Sígueme para más datos curiosos!
+¿Sabías que el pulpo tiene tres corazones? ¡Tres! Dos mandan la sangre a las branquias, y el tercero, al resto del cuerpo. Y ojo: su sangre es azul, porque usa cobre en vez de hierro, como nosotros. Pero lo más loco: cuando nada, ese corazón principal ¡se detiene! Por eso prefiere caminar. Y no acaba ahí: tiene nueve cerebros, uno en cada brazo, y puede cambiar de color en menos de un segundo. ¡Un genio del océano! Sígueme para más datos curiosos.
