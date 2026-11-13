@@ -1,0 +1,141 @@
+[
+ {
+  "beat": 0,
+  "t": 0.002,
+  "label": "hook",
+  "sfx": "impact"
+ },
+ {
+  "beat": 0.6,
+  "t": 0.302,
+  "label": "octopus pops up",
+  "sfx": "boing",
+  "opts": {
+   "pitch": "C5",
+   "to": "G5"
+  }
+ },
+ {
+  "beat": 1.5,
+  "t": 0.752,
+  "label": "EL PULPO",
+  "sfx": "thud"
+ },
+ {
+  "beat": 6,
+  "t": 3.002,
+  "label": "TIENE",
+  "sfx": "whoosh",
+  "opts": {
+   "len": 0.4
+  }
+ },
+ {
+  "beat": 8,
+  "t": 4.002,
+  "label": "heart 1",
+  "sfx": "pop",
+  "opts": {
+   "pitch": "D5"
+  }
+ },
+ {
+  "beat": 9,
+  "t": 4.502,
+  "label": "heart 2",
+  "sfx": "pop",
+  "opts": {
+   "pitch": "F5"
+  }
+ },
+ {
+  "beat": 10,
+  "t": 5.002,
+  "label": "heart 3",
+  "sfx": "pop",
+  "opts": {
+   "pitch": "A5"
+  }
+ },
+ {
+  "beat": 11,
+  "t": 5.502,
+  "label": "CORAZONES",
+  "sfx": "bell",
+  "opts": {
+   "pitch": "D6"
+  }
+ },
+ {
+  "beat": 14,
+  "t": 7.002,
+  "label": "blue flood",
+  "sfx": "riser",
+  "opts": {
+   "len": 1.2
+  }
+ },
+ {
+  "beat": 14,
+  "t": 7.002,
+  "label": "blue flood hit",
+  "sfx": "sub",
+  "opts": {
+   "len": 0.8
+  }
+ },
+ {
+  "beat": 15,
+  "t": 7.502,
+  "label": "Y SU SANGRE",
+  "sfx": "pop",
+  "opts": {
+   "pitch": "E5"
+  }
+ },
+ {
+  "beat": 16,
+  "t": 8.002,
+  "label": "ES AZUL",
+  "sfx": "impact"
+ },
+ {
+  "beat": 18,
+  "t": 9.002,
+  "label": "hemocianina",
+  "sfx": "tick"
+ },
+ {
+  "beat": 22,
+  "t": 11.002,
+  "label": "2 branquias",
+  "sfx": "blip",
+  "opts": {
+   "pitch": "A5"
+  }
+ },
+ {
+  "beat": 24,
+  "t": 12.002,
+  "label": "1 cuerpo",
+  "sfx": "blip",
+  "opts": {
+   "pitch": "D6"
+  }
+ },
+ {
+  "beat": 27,
+  "t": 13.502,
+  "label": "end card",
+  "sfx": "impact"
+ },
+ {
+  "beat": 28,
+  "t": 14.002,
+  "label": "wink",
+  "sfx": "bell",
+  "opts": {
+   "pitch": "A6"
+  }
+ }
+]
