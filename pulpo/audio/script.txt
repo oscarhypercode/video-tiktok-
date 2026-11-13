@@ -1,0 +1,8 @@
+# Guion de voz (español, ~30 s). Cada frase empieza en el beat indicado (1 beat = 0,5 s).
+[0 s]    ¿Sabías que el pulpo...
+[3 s]    tiene tres corazones?
+[8 s]    Y su sangre es azul, culpa de la hemocianina: usa cobre, no hierro.
+[13 s]   ¿Y para qué tres? Dos bombean a las branquias, y uno al resto del cuerpo.
+[17 s]   Pero cuando nada... ¡su corazón se detiene!
+[23 s]   Por eso prefiere... caminar.
+[26,5 s] ¡Sígueme para más datos curiosos!

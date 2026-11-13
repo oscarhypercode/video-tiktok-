@@ -18,13 +18,22 @@
  {
   "beat": 1.5,
   "t": 0.752,
-  "label": "EL PULPO",
+  "label": "EL",
   "sfx": "thud"
+ },
+ {
+  "beat": 2,
+  "t": 1.002,
+  "label": "PULPO",
+  "sfx": "thud",
+  "opts": {
+   "pitch": 120
+  }
  },
  {
   "beat": 6,
   "t": 3.002,
-  "label": "TIENE",
+  "label": "push in",
   "sfx": "whoosh",
   "opts": {
    "len": 0.4
@@ -67,26 +76,26 @@
   }
  },
  {
-  "beat": 14,
-  "t": 7.002,
+  "beat": 16,
+  "t": 8.002,
   "label": "blue flood",
   "sfx": "riser",
   "opts": {
-   "len": 1.2
+   "len": 1
   }
  },
  {
-  "beat": 14,
-  "t": 7.002,
-  "label": "blue flood hit",
+  "beat": 16,
+  "t": 8.002,
+  "label": "flood lands",
   "sfx": "sub",
   "opts": {
    "len": 0.8
   }
  },
  {
-  "beat": 15,
-  "t": 7.502,
+  "beat": 17,
+  "t": 8.502,
   "label": "Y SU SANGRE",
   "sfx": "pop",
   "opts": {
@@ -94,20 +103,32 @@
   }
  },
  {
-  "beat": 16,
-  "t": 8.002,
+  "beat": 18,
+  "t": 9.002,
   "label": "ES AZUL",
   "sfx": "impact"
  },
  {
-  "beat": 18,
-  "t": 9.002,
+  "beat": 20,
+  "t": 10.002,
   "label": "hemocianina",
   "sfx": "tick"
  },
  {
-  "beat": 22,
-  "t": 11.002,
+  "beat": 21,
+  "t": 10.502,
+  "label": "cobre",
+  "sfx": "coins"
+ },
+ {
+  "beat": 26,
+  "t": 13.002,
+  "label": "para qué",
+  "sfx": "tick"
+ },
+ {
+  "beat": 27,
+  "t": 13.502,
   "label": "2 branquias",
   "sfx": "blip",
   "opts": {
@@ -115,8 +136,8 @@
   }
  },
  {
-  "beat": 24,
-  "t": 12.002,
+  "beat": 29.5,
+  "t": 14.752,
   "label": "1 cuerpo",
   "sfx": "blip",
   "opts": {
@@ -124,14 +145,223 @@
   }
  },
  {
-  "beat": 27,
-  "t": 13.502,
+  "beat": 34,
+  "t": 17.002,
+  "label": "PERO CUANDO",
+  "sfx": "whoosh",
+  "opts": {
+   "len": 0.4,
+   "from": 2400,
+   "to": 600
+  }
+ },
+ {
+  "beat": 35,
+  "t": 17.502,
+  "label": "jet 1",
+  "sfx": "whoosh",
+  "opts": {
+   "len": 0.35,
+   "from": 300,
+   "to": 2600
+  }
+ },
+ {
+  "beat": 36,
+  "t": 18.002,
+  "label": "ecg",
+  "sfx": "blip",
+  "opts": {
+   "pitch": "A6"
+  }
+ },
+ {
+  "beat": 37,
+  "t": 18.502,
+  "label": "jet 2 + ecg",
+  "sfx": "whoosh",
+  "opts": {
+   "len": 0.35,
+   "from": 300,
+   "to": 2600,
+   "pan": 0.4
+  }
+ },
+ {
+  "beat": 37,
+  "t": 18.502,
+  "label": "ecg",
+  "sfx": "blip",
+  "opts": {
+   "pitch": "A6"
+  }
+ },
+ {
+  "beat": 38,
+  "t": 19.002,
+  "label": "ecg",
+  "sfx": "blip",
+  "opts": {
+   "pitch": "A6"
+  }
+ },
+ {
+  "beat": 39,
+  "t": 19.502,
+  "label": "jet 3 + ecg",
+  "sfx": "whoosh",
+  "opts": {
+   "len": 0.35,
+   "from": 300,
+   "to": 2600,
+   "pan": -0.4
+  }
+ },
+ {
+  "beat": 39,
+  "t": 19.502,
+  "label": "ecg",
+  "sfx": "blip",
+  "opts": {
+   "pitch": "A6"
+  }
+ },
+ {
+  "beat": 40,
+  "t": 20.002,
+  "label": "ecg",
+  "sfx": "blip",
+  "opts": {
+   "pitch": "A6"
+  }
+ },
+ {
+  "beat": 41,
+  "t": 20.502,
+  "label": "flatline",
+  "sfx": "blip",
+  "opts": {
+   "pitch": "A6",
+   "len": 1.6,
+   "gain": 0.16
+  }
+ },
+ {
+  "beat": 42,
+  "t": 21.002,
+  "label": "SE DETIENE",
+  "sfx": "impact"
+ },
+ {
+  "beat": 43,
+  "t": 21.502,
+  "label": "sinks",
+  "sfx": "boing",
+  "opts": {
+   "pitch": "G5",
+   "to": "C4",
+   "len": 0.7
+  }
+ },
+ {
+  "beat": 45.5,
+  "t": 22.752,
+  "label": "sand floor",
+  "sfx": "thud"
+ },
+ {
+  "beat": 45.8,
+  "t": 22.902,
+  "label": "POR ESO PREFIERE",
+  "sfx": "pop",
+  "opts": {
+   "pitch": "E5"
+  }
+ },
+ {
+  "beat": 46.8,
+  "t": 23.402,
+  "label": "CAMINAR",
+  "sfx": "boing",
+  "opts": {
+   "pitch": "C5",
+   "to": "C6"
+  }
+ },
+ {
+  "beat": 48,
+  "t": 24.002,
+  "label": "step",
+  "sfx": "tok",
+  "opts": {
+   "pitch": "D5"
+  }
+ },
+ {
+  "beat": 49,
+  "t": 24.502,
+  "label": "step",
+  "sfx": "tok",
+  "opts": {
+   "pitch": "F5"
+  }
+ },
+ {
+  "beat": 50,
+  "t": 25.002,
+  "label": "step",
+  "sfx": "tok",
+  "opts": {
+   "pitch": "D5"
+  }
+ },
+ {
+  "beat": 51,
+  "t": 25.502,
+  "label": "step",
+  "sfx": "tok",
+  "opts": {
+   "pitch": "A5"
+  }
+ },
+ {
+  "beat": 51.8,
+  "t": 25.902,
+  "label": "ink squirt",
+  "sfx": "whoosh",
+  "opts": {
+   "len": 0.6,
+   "from": 3000,
+   "to": 300
+  }
+ },
+ {
+  "beat": 52,
+  "t": 26.002,
+  "label": "ink lands",
+  "sfx": "sub",
+  "opts": {
+   "len": 0.8
+  }
+ },
+ {
+  "beat": 53.5,
+  "t": 26.752,
   "label": "end card",
   "sfx": "impact"
  },
  {
-  "beat": 28,
-  "t": 14.002,
+  "beat": 54.2,
+  "t": 27.102,
+  "label": "para más datos",
+  "sfx": "pop",
+  "opts": {
+   "pitch": "A5"
+  }
+ },
+ {
+  "beat": 55,
+  "t": 27.502,
   "label": "wink",
   "sfx": "bell",
   "opts": {
