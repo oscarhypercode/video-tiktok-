@@ -285,7 +285,8 @@
   "sfx": "boing",
   "opts": {
    "pitch": "C5",
-   "to": "C6"
+   "to": "C6",
+   "gain": 0.1
   }
  },
  {
@@ -294,7 +295,8 @@
   "label": "step",
   "sfx": "tok",
   "opts": {
-   "pitch": "D5"
+   "pitch": "D5",
+   "gain": 0.15
   }
  },
  {

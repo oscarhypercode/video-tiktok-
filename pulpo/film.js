@@ -46,8 +46,8 @@ const HITS = [
   [43, 'sinks', 'boing', { pitch: 'G5', to: 'C4', len: 0.7 }],
   [45.5, 'sand floor', 'thud'],
   [45.8, 'POR ESO PREFIERE', 'pop', { pitch: 'E5' }],
-  [46.8, 'CAMINAR', 'boing', { pitch: 'C5', to: 'C6' }],
-  [48, 'step', 'tok', { pitch: 'D5' }],
+  [46.8, 'CAMINAR', 'boing', { pitch: 'C5', to: 'C6', gain: 0.1 }],
+  [48, 'step', 'tok', { pitch: 'D5', gain: 0.15 }],
   [49, 'step', 'tok', { pitch: 'F5' }],
   [50, 'step', 'tok', { pitch: 'D5' }],
   [51, 'step', 'tok', { pitch: 'A5' }],
@@ -228,7 +228,7 @@ function octopus(ctx, o) {
   if (shock > 0.5) { // small "o" of surprise
     ctx.ellipse(0, 18, 14, 18 + open * 8, 0, 0, TAU); ctx.fillStyle = C.ink; ctx.fill();
   } else {
-    ctx.moveTo(-34, 2); ctx.quadraticCurveTo(0, 30 + open * 30, 34, 2);
+    ctx.moveTo(-34 - open * 8, 2); ctx.quadraticCurveTo(0, 30 + open * 60, 34 + open * 8, 2);
     if (open > 0.05) { ctx.closePath(); ctx.fillStyle = C.ink; ctx.fill(); }
     ctx.stroke();
   }
@@ -247,6 +247,9 @@ function octopus(ctx, o) {
   ctx.restore();
 }
 
+// voice envelope (100 Hz) drives the mouth: the octopus is the narrator
+let VO = null;
+const talk = (t) => { if (!VO) return 0; const i = t * VO.rate, a = Math.floor(i), f = i - a; const e = VO.env; return (e[a] || 0) * (1 - f) + (e[a + 1] || 0) * f; };
 const blinkAt = (u, beats) => beats.reduce((m, b) => Math.max(m, bump(u, b, 0.18)), 0);
 const beatPulse = (u, from) => (u < from ? 0 : Math.exp(-((u % 1) * 6)));
 
@@ -399,6 +402,7 @@ function camera(ctx, u) {
 M.film({
   fonts: [font(100, 900, DISPLAY), font(40, 600, UI)],
   hits: HITS,
+  async init() { try { VO = await fetch('vo_env.json').then((r) => r.json()); } catch { VO = null; } },
   draw(ctx, u, t) {
     const endCard = u >= 53.2;
     fill(ctx, C.paper);
@@ -443,7 +447,7 @@ M.film({
       heartColor: u >= 18 ? C.blueDeep : C.heart,
       wink: bump(u, 55.3, 0.6),
       sweat: clamp(prog(u, 42, 42.5) - prog(u, 46.5, 47)),
-      mouth: bump(u, 1, 0.6) * 0.8 + bump(u, 18.3, 0.8) + bump(u, 48, 1.2) * 0.7 + bump(u, 55.3, 0.8) * 0.6,
+      mouth: clamp(talk(t) * 1.1 + bump(u, 55.6, 0.6) * 0.3),
     });
     ecg(ctx, u);
 
