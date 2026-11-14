@@ -3,3 +3,9 @@ out/*/video_*.mp4
 out/*/contact_*/
 # Local secrets written by `elevenlabs onboard`
 /.env.local
+# estudio-video: intermedios pesados (se regeneran)
+/*/audio/*.wav
+/*/salida/video.mp4
+/*/salida/fotos/
+/*/salida/rango_*.mp4
+/*/salida/render.log

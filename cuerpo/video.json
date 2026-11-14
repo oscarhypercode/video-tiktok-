@@ -1,0 +1,372 @@
+{
+ "titulo": "7 cosas que tu cuerpo hace y no sabías",
+ "tema": "salud",
+ "lista": 7,
+ "cola": 1.1,
+ "escenas": [
+  {
+   "lineas": [
+    {
+     "txt": "Tu cuerpo",
+     "tam": "xl"
+    },
+    {
+     "txt": "hace cosas *increíbles*",
+     "tam": "m"
+    }
+   ],
+   "presentador": {
+    "pos": "grande",
+    "emocion": "emocionado",
+    "gesto": "reposo"
+   },
+   "momentos": [
+    {
+     "en": "increibles",
+     "presentador": {
+      "gesto": "arriba",
+      "emocion": "risa"
+     }
+    }
+   ]
+  },
+  {
+   "en": "y seguro",
+   "lineas": [
+    {
+     "txt": "y seguro no sabías",
+     "tam": "m"
+    },
+    {
+     "txt": "estas *7*",
+     "tam": "xl",
+     "golpe": true
+    }
+   ],
+   "presentador": {
+    "pos": "grande",
+    "emocion": "orgulloso",
+    "gesto": "jarras"
+   }
+  },
+  {
+   "en": "una brillas",
+   "item": 1,
+   "fondo": "oscuro",
+   "transicion": "iris",
+   "lineas": [
+    {
+     "txt": "Brillas en la _oscuridad_",
+     "tam": "l"
+    }
+   ],
+   "visual": {
+    "tipo": "dato",
+    "en": "mil",
+    "valor": 1000,
+    "sufijo": "×",
+    "etiqueta": "más débil de lo que ves",
+    "etiquetaEn": "debil",
+    "icono": "ojo",
+    "color": "acento3"
+   },
+   "presentador": {
+    "pos": "abajo",
+    "emocion": "sorpresa",
+    "gesto": "presentar",
+    "brillo": 1
+   }
+  },
+  {
+   "en": "dos",
+   "item": 2,
+   "fondo": "fondo",
+   "lineas": [
+    {
+     "txt": "Tu estómago estrena *pared*",
+     "tam": "l"
+    }
+   ],
+   "visual": {
+    "tipo": "icono",
+    "icono": "estomago",
+    "en": "estomago",
+    "etiqueta": "CADA POCOS DÍAS",
+    "etiquetaEn": "cada"
+   },
+   "presentador": {
+    "pos": "abajo",
+    "emocion": "feliz",
+    "gesto": "señalar"
+   },
+   "momentos": [
+    {
+     "en": "acido",
+     "presentador": {
+      "emocion": "preocupado",
+      "gesto": "encoger"
+     }
+    }
+   ]
+  },
+  {
+   "en": "tres",
+   "item": 3,
+   "fondo": "fondo2",
+   "lineas": [
+    {
+     "txt": "Produces hasta",
+     "tam": "m"
+    },
+    {
+     "txt": "*1,5 litros* de saliva",
+     "tam": "l"
+    }
+   ],
+   "visual": {
+    "tipo": "icono",
+    "icono": "vaso",
+    "en": "litro",
+    "anim": {
+     "nivel": [
+      0.05,
+      0.92
+     ],
+     "dur": 1.8
+    },
+    "etiqueta": "¡AL DÍA!",
+    "etiquetaEn": "dia"
+   },
+   "presentador": {
+    "pos": "abajo",
+    "emocion": "feliz",
+    "gesto": "presentar"
+   },
+   "momentos": [
+    {
+     "en": 63,
+     "efecto": "zoom",
+     "presentador": {
+      "emocion": "risa",
+      "gesto": "aplaudir"
+     }
+    }
+   ]
+  },
+  {
+   "en": "cuatro",
+   "item": 4,
+   "fondo": "fondo",
+   "lineas": [
+    {
+     "txt": "Naciste con *300* huesos",
+     "tam": "l"
+    }
+   ],
+   "visual": {
+    "tipo": "comparar",
+    "vs": "→",
+    "a": {
+     "icono": "bebe",
+     "valor": 300,
+     "etiqueta": "al nacer",
+     "en": "trescientos",
+     "color": "acento2"
+    },
+    "b": {
+     "icono": "hueso",
+     "valor": 206,
+     "etiqueta": "de adulto",
+     "en": "doscientos",
+     "color": "acento"
+    }
+   },
+   "presentador": {
+    "pos": "abajo",
+    "emocion": "sorpresa",
+    "gesto": "reposo"
+   },
+   "momentos": [
+    {
+     "en": "fusionan",
+     "presentador": {
+      "emocion": "pensando",
+      "gesto": "pensar"
+     }
+    }
+   ]
+  },
+  {
+   "en": "cinco",
+   "item": 5,
+   "fondo": "acento",
+   "transicion": "mancha",
+   "lineas": [
+    {
+     "txt": "Tu corazón late",
+     "tam": "l"
+    }
+   ],
+   "visual": {
+    "tipo": "dato",
+    "en": "cien",
+    "valor": 100000,
+    "etiqueta": "veces al día",
+    "etiquetaEn": "veces",
+    "icono": "corazon",
+    "color": "acento3"
+   },
+   "presentador": {
+    "pos": "abajo",
+    "emocion": "emocionado",
+    "gesto": "presentar"
+   },
+   "momentos": [
+    {
+     "en": "pidas",
+     "presentador": {
+      "emocion": "orgulloso",
+      "gesto": "jarras"
+     }
+    }
+   ]
+  },
+  {
+   "en": "seis",
+   "item": 6,
+   "fondo": "fondo",
+   "lineas": [
+    {
+     "txt": "Tus vasos sanguíneos",
+     "tam": "l"
+    },
+    {
+     "txt": "en fila darían",
+     "tam": "s"
+    }
+   ],
+   "visual": {
+    "tipo": "icono",
+    "icono": "tierra",
+    "en": "vasos",
+    "orbitas": 2.3,
+    "etiqueta": "+2 VUELTAS",
+    "etiquetaEn": "vueltas",
+    "orbitasEn": "darian"
+   },
+   "presentador": {
+    "pos": "abajo",
+    "emocion": "feliz",
+    "gesto": "señalar"
+   },
+   "momentos": [
+    {
+     "en": "tierra",
+     "presentador": {
+      "emocion": "sorpresa"
+     }
+    }
+   ]
+  },
+  {
+   "en": "y siete",
+   "item": 7,
+   "fondo": "fondo2",
+   "lineas": [
+    {
+     "txt": "Parpadeas",
+     "tam": "l"
+    }
+   ],
+   "visual": {
+    "tipo": "dato",
+    "en": "quince",
+    "valor": 15000,
+    "etiqueta": "veces al día",
+    "etiquetaEn": "veces",
+    "icono": "ojo"
+   },
+   "presentador": {
+    "pos": "abajo",
+    "emocion": "feliz",
+    "gesto": "presentar"
+   },
+   "momentos": [
+    {
+     "en": "apagones",
+     "efecto": "apagon",
+     "presentador": {
+      "emocion": "sorpresa",
+      "gesto": "encoger"
+     }
+    }
+   ]
+  },
+  {
+   "en": "y de bonus",
+   "fondo": "acento2",
+   "transicion": "persiana",
+   "lineas": [
+    {
+     "txt": "~bonus~",
+     "tam": "m"
+    },
+    {
+     "txt": "por la mañana",
+     "tam": "s",
+     "en": "por la"
+    },
+    {
+     "txt": "+1 cm más alto",
+     "tam": "xl",
+     "en": "un centimetro"
+    }
+   ],
+   "presentador": {
+    "pos": "centro",
+    "emocion": "emocionado",
+    "gesto": "arriba",
+    "saltar": true
+   },
+   "momentos": [
+    {
+     "en": "aplasta",
+     "presentador": {
+      "emocion": "preocupado",
+      "gesto": "encoger"
+     }
+    }
+   ]
+  },
+  {
+   "en": "cual",
+   "fondo": "fondo",
+   "lineas": [
+    {
+     "txt": "¿Cuál te sorprendió *más*?",
+     "tam": "l"
+    }
+   ],
+   "visual": {
+    "tipo": "cta",
+    "en": "sigueme",
+    "comentario": true,
+    "comentarioEn": "dejalo"
+   },
+   "presentador": {
+    "pos": "centro",
+    "emocion": "feliz",
+    "gesto": "pensar"
+   },
+   "momentos": [
+    {
+     "en": "sigueme",
+     "presentador": {
+      "gesto": "saludar",
+      "emocion": "risa"
+     }
+    }
+   ]
+  }
+ ]
+}
