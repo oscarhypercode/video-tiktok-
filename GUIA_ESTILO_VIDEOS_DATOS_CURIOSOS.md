@@ -168,3 +168,10 @@ Archivos de referencia en este repo:
 - **Vaca:** tiene mejores amigas y se estresa si la separan.
 
 Verificar cada dato antes de grabar la voz.
+
+## 11. Skill para hacerlo automático
+
+Todo este estilo está empaquetado como skill de Claude Code en `.claude/skills/video-datos-curiosos/`:
+un motor reutilizable (`template/lib/estilo.js`), una plantilla declarativa (`template/film.js`) y scripts
+(`nuevo.sh`, `voz.py`, `producir.sh`). Para otro nicho basta con pedir *"haz un video de datos curiosos sobre X"*.
+Ejemplo hecho con la skill: `espacio/` → `out/espacio/final.mp4`.
